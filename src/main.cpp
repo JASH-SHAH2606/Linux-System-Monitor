@@ -71,7 +71,7 @@ int main() {
                 long long delta_proc = p.second - proc1[p.first];
                 double usage = (double)delta_proc / delta_total * 100.0;
 
-                if (usage > 0.1) {
+                if (usage >= 0.0) {
                     active_procs.push_back({p.first, usage});
                 }
             }

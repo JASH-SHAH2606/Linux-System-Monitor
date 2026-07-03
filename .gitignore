@@ -1,0 +1,11 @@
+# Compiled binaries
+monitor
+
+# Build artifacts
+*.o
+*.out
+
+# IDE configs and OS files
+.vscode/
+.DS_Store
+Thumbs.db
